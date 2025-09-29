@@ -1,3 +1,5 @@
+// ActorStreamMVVM V1.0
+
 import SwiftUI
 
 actor BaseManager<T> {
