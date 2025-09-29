@@ -3,6 +3,7 @@
 import SwiftUI
 import Combine
 
+//    App で private static let manager = BaseManager<String>()
 actor BaseManager<T> {
     private var continuation: AsyncStream<Result<T, Error>>.Continuation
     let stream: AsyncStream<Result<T, Error>>
