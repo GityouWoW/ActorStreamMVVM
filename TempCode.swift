@@ -1,6 +1,7 @@
 // ActorStreamMVVM V1.0
 
 import SwiftUI
+import Combine
 
 actor BaseManager<T> {
     private var continuation: AsyncStream<Result<T, Error>>.Continuation
